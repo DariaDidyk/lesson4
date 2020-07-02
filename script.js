@@ -17,6 +17,15 @@
 
 //  while (moved < moveBy) box.style.marginLeft = (++moved +"px");
 
-for (let number = 1, isUserHappy = true; isUserHappy; number++) {
-    isUserHappy = confirm("Are you happy that the number is " + number + "?");
+// for (let number = 1, isUserHappy = true; isUserHappy; number++) {
+//     isUserHappy = confirm("Are you happy that the number is " + number + "?");
+// }
+
+// for (let number = 1, isUserHappy = true; isUserHappy; number++) {
+//     isUserHappy = confirm("Are you happy that the number is " + number + "?");
+// }
+
+for (let i = 1; i < 10; i++) {
+    if (i % 2) continue;
+    console.log(i);
 }
